@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c07c3c9f-654d-42d8-96ee-15a6b5cd30fa" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../design_pattern/Factory/02/Korean.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../design_pattern/Factory/02/hello.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../design_pattern/Factory/03/Korean.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../design_pattern/Factory/03/hello.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../design_pattern/Factory/03/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../design_pattern/Factory/04/Korean.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../design_pattern/Factory/04/factory.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../design_pattern/Factory/04/hello.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../design_pattern/Factory/04/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../design_pattern/Factory/05/English.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../design_pattern/Factory/05/Korean.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../design_pattern/Factory/05/factory.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../design_pattern/Factory/05/hello.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../design_pattern/Factory/05/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/layouts/master.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/partials/footer.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/명령어.md" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="20AeXAmrc1lfLNH5y3F34gbvJMm" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../laravel_myapp" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\practice\laravel_app\resources\views" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c07c3c9f-654d-42d8-96ee-15a6b5cd30fa" name="Default Changelist" comment="" />
+      <created>1635491856792</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1635491856792</updated>
+      <workItem from="1635491857876" duration="4199000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="805" y="311" key="FileChooserDialogImpl" timestamp="1635492509545">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="805" y="311" key="FileChooserDialogImpl/0.0.2048.1112/-2560.0.2560.1400@0.0.2048.1112" timestamp="1635492509545" />
+    <state x="346" y="479" key="NewPhpFileDialog" timestamp="1635492826241">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="346" y="479" key="NewPhpFileDialog/0.0.2048.1112/-2560.0.2560.1400@0.0.2048.1112" timestamp="1635492826241" />
+    <state x="175" y="242" width="672" height="678" key="search.everywhere.popup" timestamp="1635496527478">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="175" y="242" width="672" height="678" key="search.everywhere.popup/0.0.2048.1112/-2560.0.2560.1400@0.0.2048.1112" timestamp="1635496527478" />
+  </component>
+</project>

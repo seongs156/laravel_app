@@ -2,20 +2,25 @@
 
 namespace App\Http\Controllers;
 
+use App\User;
 use Illuminate\Http\Request;
-
+use App\Http\Requests\ArticlesRequest;
 use App\Http\Requests;
+use Illuminate\Support\Facades\Validator;
 
 class ArticlesController extends Controller
 {
     /**
      * Display a listing of the resource.
      *
-     * @return \Illuminate\Http\Response
+     * @return \Illuminate\Contracts\Foundation\Application|\Illuminate\Contracts\View\Factory|\Illuminate\Http\Response|\Illuminate\View\View
      */
     public function index()
     {
-        return __METHOD__ . '은(는) Article 컬렉션을 조회합니다.';
+//        $articles = \App\Article::with('user')->get();
+        $articles = \App\Article::latest()->paginate(3);
+
+        return view('articles.index', compact('articles'));
     }
 
     /**
@@ -25,18 +30,52 @@ class ArticlesController extends Controller
      */
     public function create()
     {
-        return __METHOD__ . '은(는) Article 컬렉션을 만들기 위한 폼을 담은 뷰를 반환합니다.';
+        return view('articles.create');
     }
 
     /**
      * Store a newly created resource in storage.
      *
-     * @param  \Illuminate\Http\Request  $request
-     * @return \Illuminate\Http\Response
+     * @param  \App\Http\Requests\ArticlesRequest  $request
+     * @return \Illuminate\Http\RedirectResponse
      */
-    public function store(Request $request)
+    public function store(ArticlesRequest $request)
     {
-        return __METHOD__ . '은(는) 사용자의 입력한 폼 데이터로 새로운 Article 컬렉션을 만듭니다.';
+//        $rules = [
+//          'title' => ['required']
+//          ,'content' => ['required','min:10']
+//        ];
+//
+//        $messages = [
+//          'title.required' => '제목은 필수 입력 항목입니다.'
+//          , 'content.required' => '본문은 필수 입력 항목입니다.'
+//          , 'content.min' => '본문은 최소 :min 글자 이상이 필요합니다.'
+//        ];
+//
+//
+//        $validator = Validator::make($request->all(), $rules, $messages);
+//
+//        if($validator->fails())
+//        {
+//            return back()->withErrors($validator)->withInput();
+//        }
+
+        $article = User::find(1)->articles()->create($request->all());
+
+        var_dump($article->toArray());
+        if(!$article)
+        {
+            return back()->with('flash_message', '글이 저장되지 않았습니다.')->withInput();
+        }
+        echo '<pre>';
+//        var_dump('이벤트를 던집니다.');
+//        event('article.created', [$article]);
+//        event(new \App\Events\ArticleCreated($article));
+        event(new \App\Events\ArticlesEvent($article));
+//        var_dump('이벤트를 던졌습니다.');
+
+//        return redirect(route('articles.index'))
+//            ->with('flash_message', '작성하신 글이 저장되었습니다..');
     }
 
     /**

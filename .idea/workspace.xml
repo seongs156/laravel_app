@@ -25,11 +25,18 @@
       <change afterPath="$PROJECT_DIR$/../design_pattern/Factory/05/factory.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../design_pattern/Factory/05/hello.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../design_pattern/Factory/05/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/errors/notice.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/articles/show.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/emails/articles/created-text.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/emails/articles/created.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/laravel_app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/laravel_app.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Exceptions/Handler.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Exceptions/Handler.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ArticlesController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/ArticlesController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/app.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/mail.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/mail.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/디버깅.md" beforeDir="false" afterPath="$PROJECT_DIR$/디버깅.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -141,6 +148,10 @@
       <path value="$PROJECT_DIR$/vendor/scrivo/highlight.php" />
       <path value="$PROJECT_DIR$/vendor/paragonie/random_compat" />
       <path value="$PROJECT_DIR$/vendor/laravel/ui" />
+      <path value="$PROJECT_DIR$/vendor/erusev/parsedown-extra" />
+      <path value="$PROJECT_DIR$/vendor/erusev/parsedown" />
+      <path value="$PROJECT_DIR$/vendor/maximebf/debugbar" />
+      <path value="$PROJECT_DIR$/vendor/barryvdh/laravel-debugbar" />
     </include_path>
   </component>
   <component name="ProjectId" id="20AeXAmrc1lfLNH5y3F34gbvJMm" />
@@ -160,6 +171,9 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\practice\laravel_app\resources\views\articles" />
+      <recent name="D:\practice\laravel_app\resources\views\emails\articles" />
+      <recent name="D:\practice\laravel_app\resources\views\emailss" />
       <recent name="D:\practice\laravel_app\resources\views" />
     </key>
   </component>
@@ -172,7 +186,7 @@
       <option name="presentableId" value="Default" />
       <updated>1635491856792</updated>
       <workItem from="1635491857876" duration="4199000" />
-      <workItem from="1635899850055" duration="1856000" />
+      <workItem from="1635899850055" duration="9861000" />
     </task>
     <servers />
   </component>
@@ -200,17 +214,17 @@
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state x="805" y="311" key="FileChooserDialogImpl/0.0.2048.1112/-2560.0.2560.1400@0.0.2048.1112" timestamp="1635833345982" />
-    <state x="346" y="479" key="NewPhpFileDialog" timestamp="1635900723778">
+    <state x="346" y="479" key="NewPhpFileDialog" timestamp="1635924997302">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state x="346" y="479" key="NewPhpFileDialog/0.0.2048.1112/-2560.0.2560.1400@0.0.2048.1112" timestamp="1635900723778" />
+    <state x="346" y="479" key="NewPhpFileDialog/0.0.2048.1112/-2560.0.2560.1400@0.0.2048.1112" timestamp="1635924997302" />
     <state x="731" y="288" width="585" height="536" key="find.popup" timestamp="1635841734879">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state x="731" y="288" width="585" height="536" key="find.popup/0.0.2048.1112/-2560.0.2560.1400@0.0.2048.1112" timestamp="1635841734879" />
-    <state x="175" y="242" width="672" height="678" key="search.everywhere.popup" timestamp="1635900402257">
+    <state x="175" y="242" width="672" height="678" key="search.everywhere.popup" timestamp="1635924865840">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state x="175" y="242" width="672" height="678" key="search.everywhere.popup/0.0.2048.1112/-2560.0.2560.1400@0.0.2048.1112" timestamp="1635900402257" />
+    <state x="175" y="242" width="672" height="678" key="search.everywhere.popup/0.0.2048.1112/-2560.0.2560.1400@0.0.2048.1112" timestamp="1635924865840" />
   </component>
 </project>

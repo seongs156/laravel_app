@@ -175,6 +175,8 @@ return [
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
 
+        //PHP 디버그툴
+        //Barryvdh\Debugbar\ServiceProvider::class,
     ],
 
     /*

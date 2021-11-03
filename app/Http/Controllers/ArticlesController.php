@@ -89,8 +89,10 @@ class ArticlesController extends Controller
     {
         $article = Article::findOrFail($id);
 
-        dd('reached');
-        return $article->toArray();
+//        dd('reached');
+        debug($article->toArray());
+        return view('articles.show',compact('article'));
+//        return $article->toArray();
     }
 
     /**

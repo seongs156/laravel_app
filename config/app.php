@@ -177,6 +177,8 @@ return [
 
         //PHP 디버그툴
         //Barryvdh\Debugbar\ServiceProvider::class,
+        //
+        \Intervention\Image\ImageServiceProvider::class,
     ],
 
     /*
@@ -228,6 +230,8 @@ return [
         'Validator' => Illuminate\Support\Facades\Validator::class,
         'View' => Illuminate\Support\Facades\View::class,
 
+        //이미지
+        'Image' => \Intervention\Image\Facades\Image::class
     ],
 
 ];

@@ -86,3 +86,7 @@ EOT;
 
    return app(ParsedownExtra::class)->text($text);
 });
+
+Route::get('docs/{file?}', 'DocsController@show');
+
+Route::get('docs/images/{image}', 'DocsController@image');
